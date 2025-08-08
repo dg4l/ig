@@ -3,5 +3,5 @@ a little python script to generate a graph using graphviz based on your C/C++ in
 
 ## Usage
 ```bash
-./includegraph *.c
+./includegraph.py *.c
 ```
