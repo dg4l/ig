@@ -4,7 +4,7 @@ import sys
 import shutil
 import subprocess
 
-graphviz_compiler = "neato"
+graphviz_compiler = "dot"
 if not shutil.which(graphviz_compiler):
     print(f"you must have {graphviz_compiler} in $PATH.")
     sys.exit(1)
